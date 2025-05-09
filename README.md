@@ -21,7 +21,7 @@ Inspirations:
 Clone the repository:
 
 ```bash
-git clone https://github.com/savareyhano/elysia-auth.git
+git clone https://github.com/guspatagonico/elysia-auth.git
 ```
 
 Navigate to the project directory:
@@ -47,7 +47,7 @@ I added `bun compile` to package.json to create the binary version (not cross-pl
 With the binary you can also use pm2 as process manager, for example with:
 
 ```bash
-pm2 start elysia-auth-server --watch /*your path*/elysia-auth/elysia-auth-server
+pm2 start elysia-auth-server --watch /your_path/elysia-auth/elysia-auth-server
 ```
 
 ### Docker
@@ -55,7 +55,7 @@ pm2 start elysia-auth-server --watch /*your path*/elysia-auth/elysia-auth-server
 Clone the repository:
 
 ```bash
-git clone https://github.com/savareyhano/elysia-auth.git
+git clone https://github.com/guspatagonico/elysia-auth.git
 ```
 
 Navigate to the project directory:
