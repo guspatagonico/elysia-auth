@@ -63,7 +63,7 @@ const app = new Elysia()
       authenticationsValidator
     )
   )
-  .listen(3000);
+  .listen(3210);
 
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`

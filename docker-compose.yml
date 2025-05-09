@@ -2,7 +2,7 @@ services:
   app:
     build: .
     ports:
-      - '3000:3000'
+      - '3210:3210'
     restart: unless-stopped
     environment:
       DATABASE_URL: postgresql://postgres:postgres@db:5432/elysia_auth

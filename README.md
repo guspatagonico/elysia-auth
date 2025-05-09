@@ -70,4 +70,4 @@ To start the development server run (not needed with Docker):
 bun run dev
 ```
 
-Open http://localhost:3000/docs with your browser to see the available APIs (thanks to **swagger**).
+Open http://localhost:3210/docs with your browser to see the available APIs (thanks to **swagger**).
