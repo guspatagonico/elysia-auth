@@ -4,7 +4,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
-    "migrate": "bunx prisma migrate"
+    "migrate": "bunx prisma migrate",
+    "compile": "bun build --compile --minify-whitespace --minify-syntax --target bun --outfile elysia-auth-server ./src/index.ts"
   },
   "dependencies": {
     "@elysiajs/cron": "^1.1.0",
