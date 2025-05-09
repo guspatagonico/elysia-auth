@@ -42,6 +42,14 @@ Install the dependencies:
 bun install
 ```
 
+I added `bun compile` to package.json to create the binary version (not cross-platform, compile must be run on Linux or MacOS independently).
+
+With the binary you can also use pm2 as process manager, for example with:
+
+```bash
+pm2 start elysia-auth-server --watch /*your path*/elysia-auth/elysia-auth-server
+```
+
 ### Docker
 
 Clone the repository:
